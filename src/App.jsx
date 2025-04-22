@@ -4,7 +4,7 @@ import { ScrollAnimation } from "./components/ScrollAnimation";
 const App = () => {
   return (
     <>
-      <Extra />
+      {/* <Extra /> */}
       <ScrollAnimation />
       <Extra />
     </>

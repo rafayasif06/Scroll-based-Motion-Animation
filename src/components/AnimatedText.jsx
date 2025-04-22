@@ -10,8 +10,8 @@ export const AnimatedText = () => {
   });
 
   // Adjust timing for smoother animation
-  const y1 = useTransform(scrollYProgress, [0, 0.5], ["100%", "0%"]);
-  const y2 = useTransform(scrollYProgress, [0.1, 0.6], ["100%", "0%"]);
+  const y1 = useTransform(scrollYProgress, [0, 0.4], ["100%", "0%"]);
+  const y2 = useTransform(scrollYProgress, [0, 0.5], ["100%", "0%"]);
 
   return (
     <div
