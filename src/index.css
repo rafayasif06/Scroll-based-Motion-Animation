@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+.window-masks{
+  mask-image: linear-gradient(black, black),url("./window.svg");
+  mask-composite: exclude;
+  mask-repeat: no-repeat;
+  mask-size: auto,300px auto;
+  mask-position: center center,center right 3rem;
+}
