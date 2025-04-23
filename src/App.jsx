@@ -8,7 +8,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 1000); // Simulate a loading delay of 1 second
+    }, 1000); ``
   }, []);
 
   return (

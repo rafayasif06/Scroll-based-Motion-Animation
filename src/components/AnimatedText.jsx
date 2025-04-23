@@ -18,14 +18,14 @@ export const AnimatedText = () => {
       ref={containerRef}
       className="relative h-[50vh] w-full flex items-center justify-center"
     >
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 text-6xl sm:text-8xl lg:text-9xl">
         <div className="overflow-hidden">
-          <motion.h3 style={{ y: y1 }} className="text-9xl">
+          <motion.h3 style={{ y: y1 }} className="">
             FEATURED
           </motion.h3>
         </div>
         <div className="overflow-hidden">
-          <motion.h3 style={{ y: y2 }} className="text-9xl">
+          <motion.h3 style={{ y: y2 }} className="">
             PROJECTS
           </motion.h3>
         </div>
