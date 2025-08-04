@@ -1,10 +1,33 @@
 @import "tailwindcss";
 
-
-.window-masks{
-  mask-image: linear-gradient(black, black),url("./window.svg");
-  mask-composite: exclude;
-  mask-repeat: no-repeat;
-  mask-size: auto,300px auto;
-  mask-position: center center,center right 3rem;
+body,html{
+  background-color: black;
 }
+
+@keyframes rotate-clockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-anti-clockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+
+/* .small-arc{
+  animation: rotate-clockwise 10s linear infinite;
+}
+.big-arc{
+  animation: rotate-anti-clockwise 10s linear infinite;
+} */
+
+
+
