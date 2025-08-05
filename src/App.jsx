@@ -6,13 +6,10 @@ import VerticalCards from "./components/VerticalCards";
 const App = () => {
   return (
     <>
-      <HeroRotation />
+      {/* <HeroRotation /> */}
       {/* <HTMLContent value={"+"} /> */}
       
       
-      {/* <hello /> */}
-      {/* <VerticalCards /> */}
-{/* <VerticalCards/> */}
     </>
   );
 };
