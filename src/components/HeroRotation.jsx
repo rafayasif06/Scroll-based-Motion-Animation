@@ -5,7 +5,7 @@ import { SvgAnimation } from "./SvgAnimation";
 const HeroRotation = () => {
   return (
     <section className=" flex items-center justify-center h-screen w-full ">
-      <div className="relative w-full  bg-[#111] ">
+      <div className="relative w-full  bg-[#111] flex items-center justify-center  overflow-visible">
         <SvgAnimation />
       </div>
     </section>

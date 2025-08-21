@@ -1,15 +1,12 @@
 import React from "react";
 import HeroRotation from "./components/HeroRotation";
-import HTMLContent from "./components/HTMLContent";
-import VerticalCards from "./components/VerticalCards";
+import { Rotation } from "./components/Rotation";
 
 const App = () => {
   return (
     <>
-      {/* <HeroRotation /> */}
-      {/* <HTMLContent value={"+"} /> */}
-      
-      
+      {/* <Rotation/> */}
+      <HeroRotation />
     </>
   );
 };

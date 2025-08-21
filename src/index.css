@@ -1,33 +1,80 @@
-@import "tailwindcss";
+  @import "tailwindcss";
 
-body,html{
-  background-color: black;
-}
-
-@keyframes rotate-clockwise {
-  from {
-    transform: rotate(0deg);
+  body,
+  html {
+    background-color: black;
   }
-  to {
-    transform: rotate(360deg);
+
+  @keyframes rotate-clockwise {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
   }
-}
-@keyframes rotate-anti-clockwise {
-  from {
-    transform: rotate(0deg);
+
+  @keyframes orbit-upright {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
   }
-  to {
-    transform: rotate(-360deg);
+
+  @keyframes orbit-no-spin {
+    0% {
+      transform: rotate(0deg) translateX(0px) rotate(0deg);
+    }
+
+    25% {
+      transform: rotate(90deg) translateX(0px) rotate(-90deg);
+    }
+
+    50% {
+      transform: rotate(180deg) translateX(0px) rotate(-180deg);
+    }
+
+    75% {
+      transform: rotate(270deg) translateX(0px) rotate(-270deg);
+    }
+
+    100% {
+      transform: rotate(360deg) translateX(0px) rotate(-360deg);
+    }
   }
-}
-
-
-/* .small-arc{
-  animation: rotate-clockwise 10s linear infinite;
-}
-.big-arc{
-  animation: rotate-anti-clockwise 10s linear infinite;
-} */
 
 
 
+  .circle-stroke-2 {
+    animation: rotate-clockwise 15s linear infinite;
+    transform-origin: 221px 231px;
+  }
+
+  .circle-stroke-3 {
+    animation: rotate-clockwise 15s linear infinite;
+    transform-origin: 221px 231px;
+  }
+
+  .circle-stroke-4 {
+    animation: rotate-clockwise 15s linear infinite;
+    transform-origin: 221px 231px;
+  }
+
+  @keyframes orbit-box {
+    0% {
+      transform: rotate(0deg) translateX(270px) rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg) translateX(270px) rotate(-360deg);
+    }
+  }
+
+  .cart {
+    animation: rotate-clockwise 13s linear infinite;
+    transform-origin: 221px 231px;
+  }
