@@ -16,7 +16,7 @@ export const SvgAnimation = () => {
           r="220.75"
           stroke="blue"
           strokeOpacity="0.1"
-          strokeWidth="0.5"
+          strokeWidth="2"
           strokeDasharray="2 2"
         />
         <circle
@@ -33,7 +33,7 @@ export const SvgAnimation = () => {
           r="178.75"
           stroke="black"
           strokeOpacity="0.1"
-          strokeWidth="0.5"
+          strokeWidth="2"
           strokeDasharray="2 2"
         />
         <circle
@@ -57,7 +57,7 @@ export const SvgAnimation = () => {
           r="136.75"
           stroke="black"
           strokeOpacity="0.1"
-          strokeWidth="0.5"
+          strokeWidth="2"
           strokeDasharray="2 2"
         />
         <circle
@@ -74,7 +74,7 @@ export const SvgAnimation = () => {
           r="82.75"
           stroke="black"
           strokeOpacity="0.1"
-          strokeWidth="0.5"
+          strokeWidth="2"
           strokeDasharray="2 2"
         />
         <g className="circle-1" filter="url(#filter0_d_372_468)">
@@ -86,7 +86,7 @@ export const SvgAnimation = () => {
             fill="white"
           />
         </g>
-        {/* <g className="walmart" filter="url(#filter1_d_372_468)">
+        <g className="walmart" filter="url(#filter1_d_372_468)">
           <rect
             x="292.31"
             y="116"
@@ -101,7 +101,7 @@ export const SvgAnimation = () => {
             fill="#FDBB30"
           />
         </g>
-        <g className="amazon" filter="url(#filter2_d_372_468)">
+        {/* <g className="amazon" filter="url(#filter2_d_372_468)">
           <rect
             x="69.3098"
             y="204"
