@@ -30,7 +30,7 @@ html {
   transform-origin: 221px 231px;
 }
 
-.walmart,
+.amazon,
 .cart {
   animation: rotate-clockwise 13s linear infinite;
   transform-origin: 221px 231px;
